@@ -1,0 +1,291 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.navigation-menu{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    flex-direction: column;
+    position: fixed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation-menu img{
+    height: auto;
+    width: 25%;
+    margin-left: 8%;
+    
+}
+.menu-and-icon{
+    display: flex;
+}
+.left-icon{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+   
+    
+}
+.right-menu{
+    width: 60%;
+    right: clear;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+   
+}
+.right-menu button{
+    margin-right:0.8% ;
+    font-size: 0.9rem;
+    width: auto;
+    height: 6vh;
+    padding: 0.7% 2.5% 0.8% 2.5%;
+    border: none;
+    background-color: rgba(220, 216, 216, 0.65);
+    color: #393c41 ;
+    font-weight: bold;
+    border-radius: 4px;
+  
+
+}
+.right-menu button:hover{
+    cursor: pointer;
+    background-color: rgba(228, 226, 226, 0.65);
+   
+}
+
+/* all-img-box */
+
+.img-box{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 100vh;
+    z-index: -1;
+    
+    
+}
+
+.first-img-box{
+    background:  url(bgimage/desktop/Desktop-ModelY.jpg) no-repeat center ;
+    background-size: cover;
+    
+}
+.second-img-box{
+    background:  url(bgimage/desktop/M3-Homepage-Desktop-LHD.jpg) no-repeat ;
+    background-size: cover;
+}
+.third-img-box{
+    background:  url(bgimage/desktop/Homepage-Model-S-Desktop-LHD.jpg) no-repeat ;
+    background-size: cover;
+}
+.fourth-img-box{
+    background:  url(bgimage/desktop/Homepage-Model-X-Desktop-LHD.jpg) no-repeat ;
+    background-size: cover;
+}
+.fifth-img-box{
+    background:  url(bgimage/desktop/_25-HP-SolarPanels-D.jpg) no-repeat ;
+    background-size: cover;
+}
+.sixth-img-box{
+    background:  url(bgimage/desktop/Homepage-SolarRoof-Desktop-Global.jpg) no-repeat ;
+    background-size: cover;
+}
+.seventh-img-box{
+    background:  url(bgimage/desktop/dd739764-bcaa-4263-9488-8c73bc9fb046.jpg) no-repeat ;
+    background-size: cover;
+}
+
+/* center text box */
+.center-text-box{
+    
+    width: 70%;
+   margin-top: 3.5%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.5em;
+   
+    
+}
+.product-text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.37em;
+    color: #393c41;
+    margin-top: 3%;
+    text-underline-offset: 0.2em;
+}
+.product-text a:hover{
+   text-decoration: underline;
+   text-decoration-thickness: 0.1em;
+}
+.customer-button{
+    height: 48vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.button-top{
+   
+    font-size: 0.9rem;
+    width: 35%;
+    margin-right: 3.5%;
+    font-weight: bold;
+    height: auto;
+    padding: 1.4% 0 1.4% 0;
+    border: none;
+    background-color: rgba(244, 244, 244, 0.65);
+    color: #393c41 ;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.buynow {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white ;
+    font-size: 1em;
+    color: #393c41;
+    filter: blur(0.10vh);
+    
+}
+.buynow a{
+    color: rgb(233, 230, 230);
+    font-family:
+    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.customer-order a{
+    color:#393c41 ;
+    font-family:
+    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+/* menu box */
+
+.menu{
+    position: absolute;
+    overflow: scroll;
+    will-change: scroll-position;
+    text-decoration: none;
+  visibility: hidden;
+    z-index: 1;
+    width: 28.5%;
+    position: fixed;
+    right: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    font-size: 1.2em;
+    background-color: rgb(228, 246, 240);
+    padding-left: 10vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.menulinkbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menulinkbox a{
+    display: flex;
+    justify-content: flex-start;
+}
+.menu-links{
+    width: 100%;
+    height: 5.5vh;
+    text-decoration: none;
+    text-underline-offset: none;
+}
+.menu-links:hover{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    background-color: #cfd2d3;
+    border-radius: 1vh;
+}
+
+.cross{
+    width: 100%;
+    height:20vh ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cross button{
+    border: none;
+    padding: 4%;
+    font-size: 1.2em;
+}
+.cross button:hover{
+    background-color: #e4e5e6;
+   /* transition-duration: 0.1s; */
+}
+
+
+
+
+
+
+
+/* footer */
+.footbox{
+    margin: 0 auto;
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: #393c41;
+    text-decoration: none;
+    font-family:
+     'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+  
+}
+.links:hover{
+    text-decoration: underline;
+   text-decoration-thickness: 0.1em;
+}
+
+
+/* for buttons event */
+    
+    .blur{
+       filter: blur(1vh) brightness(0.5);
+    }
+    
+    .show-hide{
+        visibility: visible;
+        z-index: 5;
+    }
